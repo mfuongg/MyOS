@@ -358,7 +358,7 @@ Ví dụ:
 
 * GitHub: [@mfuongg](https://github.com/mfuongg)
 * Repository: [MyOS](https://github.com/mfuongg/MyOS)
-
+* Email: fuongm06@gmail.com
 ---
 
 ## 📄 Ghi chú
