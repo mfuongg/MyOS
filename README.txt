@@ -10,15 +10,15 @@
 
 Dự án sử dụng:
 
-* **C/C++** — phát triển Kernel, Mini Shell và các thành phần xử lý chính.
-* **Assembly** — xây dựng Bootloader và xử lý các thao tác cấp thấp.
-* **Makefile** — tự động hóa quá trình biên dịch và tạo file ISO.
+- **C/C++** — phát triển Kernel, Mini Shell và các thành phần xử lý chính.
+- **Assembly** — xây dựng Bootloader và xử lý các thao tác cấp thấp.
+- **Makefile** — tự động hóa quá trình biên dịch và tạo file ISO.
 
 MyOS có thể chạy trên:
 
-* 🖥️ **VirtualBox**
-* 🖥️ **VMware**
-* ⚡ **QEMU**
+- 🖥️ **VirtualBox**
+- 🖥️ **VMware**
+- ⚡ **QEMU**
 
 Sau khi khởi động, hệ điều hành hiển thị giao diện chào mừng và cung cấp một **Mini Shell** cho phép người dùng nhập và thực thi các lệnh cơ bản.
 
@@ -26,16 +26,16 @@ Sau khi khởi động, hệ điều hành hiển thị giao diện chào mừng
 
 ## ✨ Tính năng
 
-| Tính năng              | Mô tả                                        |
-| ---------------------- | -------------------------------------------- |
-| 🚀 **Bootloader**      | Khởi động và tải Kernel của MyOS             |
-| ⚙️ **Kernel**          | Thành phần cốt lõi của hệ điều hành          |
-| ⌨️ **Keyboard Driver** | Nhận và xử lý dữ liệu từ bàn phím            |
-| 💻 **Mini Shell**      | Giao diện dòng lệnh tương tác với người dùng |
-| 📋 **Command System**  | Hỗ trợ các lệnh cơ bản                       |
-| 🧹 **Clear Screen**    | Xóa nội dung đang hiển thị                   |
-| 🔄 **Reboot**          | Khởi động lại máy ảo                         |
-| 💿 **Bootable ISO**    | Tạo file ISO có khả năng khởi động           |
+| Tính năng | Mô tả |
+|---|---|
+| 🚀 **Bootloader** | Khởi động và tải Kernel của MyOS |
+| ⚙️ **Kernel** | Thành phần cốt lõi của hệ điều hành |
+| ⌨️ **Keyboard Driver** | Nhận và xử lý dữ liệu từ bàn phím |
+| 💻 **Mini Shell** | Giao diện dòng lệnh tương tác với người dùng |
+| 📋 **Command System** | Hỗ trợ các lệnh cơ bản |
+| 🧹 **Clear Screen** | Xóa nội dung đang hiển thị |
+| 🔄 **Reboot** | Khởi động lại máy ảo |
+| 💿 **Bootable ISO** | Tạo file ISO có khả năng khởi động |
 
 ---
 
@@ -43,14 +43,14 @@ Sau khi khởi động, hệ điều hành hiển thị giao diện chào mừng
 
 MyOS cung cấp một Mini Shell với các lệnh cơ bản:
 
-| Lệnh     | Chức năng                               |
-| -------- | --------------------------------------- |
-| `help`   | Hiển thị danh sách các lệnh được hỗ trợ |
-| `about`  | Hiển thị thông tin về tác giả và dự án  |
-| `clear`  | Xóa nội dung trên màn hình              |
-| `hi`     | Hiển thị lời chào                       |
-| `hello`  | Hiển thị lời chào                       |
-| `reboot` | Khởi động lại máy ảo                    |
+| Lệnh | Chức năng |
+|---|---|
+| `help` | Hiển thị danh sách các lệnh được hỗ trợ |
+| `about` | Hiển thị thông tin về tác giả và dự án |
+| `clear` | Xóa nội dung trên màn hình |
+| `hi` | Hiển thị lời chào |
+| `hello` | Hiển thị lời chào |
+| `reboot` | Khởi động lại máy ảo |
 
 ### Ví dụ
 
@@ -131,17 +131,17 @@ MyOS/
 
 ### Mô tả các thành phần
 
-| Tệp            | Mô tả                                                         |
-| -------------- | ------------------------------------------------------------- |
-| `loader.s`     | Bootloader, thực hiện quá trình khởi động hệ điều hành        |
-| `kernel.cpp`   | Kernel chính của MyOS                                         |
-| `keyboard.cpp` | Cài đặt xử lý bàn phím                                        |
-| `keyboard.h`   | Khai báo các thành phần của Keyboard Driver                   |
-| `shell.cpp`    | Cài đặt Mini Shell và xử lý lệnh                              |
-| `shell.h`      | Khai báo các thành phần của Shell                             |
-| `linker.ld`    | Linker Script, quy định cách sắp xếp các section khi liên kết |
-| `Makefile`     | Tự động hóa quá trình biên dịch                               |
-| `mykernel.iso` | File ISO có khả năng khởi động MyOS                           |
+| Tệp | Mô tả |
+|---|---|
+| `loader.s` | Bootloader, thực hiện quá trình khởi động hệ điều hành |
+| `kernel.cpp` | Kernel chính của MyOS |
+| `keyboard.cpp` | Cài đặt xử lý bàn phím |
+| `keyboard.h` | Khai báo các thành phần của Keyboard Driver |
+| `shell.cpp` | Cài đặt Mini Shell và xử lý lệnh |
+| `shell.h` | Khai báo các thành phần của Shell |
+| `linker.ld` | Linker Script, quy định cách sắp xếp các section khi liên kết |
+| `Makefile` | Tự động hóa quá trình biên dịch |
+| `mykernel.iso` | File ISO có khả năng khởi động MyOS |
 
 ---
 
@@ -149,17 +149,17 @@ MyOS/
 
 Để biên dịch lại MyOS từ mã nguồn, cần chuẩn bị:
 
-* [NASM](https://www.nasm.us/)
-* `i686-elf-gcc`
-* `i686-elf-ld`
-* `i686-elf-objcopy`
-* `Make`
+- [NASM](https://www.nasm.us/)
+- `i686-elf-gcc`
+- `i686-elf-ld`
+- `i686-elf-objcopy`
+- `Make`
 
 Để chạy và kiểm thử:
 
-* [QEMU](https://www.qemu.org/)
-* VirtualBox
-* VMware
+- [QEMU](https://www.qemu.org/)
+- VirtualBox
+- VMware
 
 ### Kiến trúc
 
@@ -196,7 +196,7 @@ make
 make mykernel.iso
 ```
 
-Sau khi build thành công:
+Sau khi build thành công, file:
 
 ```text
 mykernel.iso
@@ -212,7 +212,7 @@ sẽ được tạo và có thể sử dụng để khởi động MyOS trên m�
 
 #### Bước 1: Tạo máy ảo
 
-Tạo một máy ảo mới với:
+Tạo một máy ảo mới với cấu hình:
 
 ```text
 Type: Other
@@ -291,16 +291,16 @@ qemu-system-i386 -cdrom mykernel.iso -boot d -m 64M
 
 Sau khi khởi động MyOS, có thể kiểm tra:
 
-* [x] Khởi động hệ điều hành từ file ISO
-* [x] Hiển thị giao diện chào mừng
-* [x] Nhận dữ liệu từ bàn phím
-* [x] Khởi động Mini Shell
-* [x] Thực thi lệnh `help`
-* [x] Thực thi lệnh `about`
-* [x] Thực thi lệnh `hi`
-* [x] Thực thi lệnh `hello`
-* [x] Thực thi lệnh `clear`
-* [x] Thực thi lệnh `reboot`
+- [x] Khởi động hệ điều hành từ file ISO
+- [x] Hiển thị giao diện chào mừng
+- [x] Nhận dữ liệu từ bàn phím
+- [x] Khởi động Mini Shell
+- [x] Thực thi lệnh `help`
+- [x] Thực thi lệnh `about`
+- [x] Thực thi lệnh `hi`
+- [x] Thực thi lệnh `hello`
+- [x] Thực thi lệnh `clear`
+- [x] Thực thi lệnh `reboot`
 
 ---
 
@@ -308,19 +308,19 @@ Sau khi khởi động MyOS, có thể kiểm tra:
 
 Thông qua dự án MyOS, nhóm thực hiện tìm hiểu và thực hành:
 
-* Kiến trúc cơ bản của hệ điều hành
-* Quá trình Boot hệ điều hành
-* Xây dựng Bootloader
-* Xây dựng Kernel
-* Lập trình C/C++
-* Lập trình Assembly
-* Xử lý dữ liệu từ bàn phím
-* Xây dựng giao diện dòng lệnh
-* Linker Script
-* Cross Compilation
-* Makefile
-* Biên dịch và liên kết chương trình cấp thấp
-* Chạy hệ điều hành trên môi trường máy ảo
+- Kiến trúc cơ bản của hệ điều hành
+- Quá trình Boot hệ điều hành
+- Xây dựng Bootloader
+- Xây dựng Kernel
+- Lập trình C/C++
+- Lập trình Assembly
+- Xử lý dữ liệu từ bàn phím
+- Xây dựng giao diện dòng lệnh
+- Linker Script
+- Cross Compilation
+- Makefile
+- Biên dịch và liên kết chương trình cấp thấp
+- Chạy hệ điều hành trên môi trường máy ảo
 
 ---
 
@@ -328,27 +328,27 @@ Thông qua dự án MyOS, nhóm thực hiện tìm hiểu và thực hành:
 
 > Có thể bổ sung ảnh chụp MyOS đang chạy trên QEMU, VirtualBox hoặc VMware tại đây.
 
-Ví dụ:
+### Màn hình khởi động
 
-```markdown
 ![MyOS - Màn hình khởi động](images/myos-boot.png)
 
+### Mini Shell
+
 ![MyOS - Mini Shell](images/myos-shell.png)
-```
 
 ---
 
 ## 📌 Thông tin dự án
 
-| Thông tin            | Chi tiết                      |
-| -------------------- | ----------------------------- |
-| **Tên dự án**        | MyOS — Hệ Điều Hành Đơn Giản  |
-| **Loại dự án**       | Dự án học tập / Dự án môn học |
-| **Ngôn ngữ**         | C/C++, Assembly               |
-| **Kiến trúc**        | x86 32-bit                    |
-| **Build System**     | Makefile                      |
-| **Môi trường chạy**  | QEMU / VirtualBox / VMware    |
-| **Định dạng đầu ra** | Bootable ISO                  |
+| Thông tin | Chi tiết |
+|---|---|
+| **Tên dự án** | MyOS — Hệ Điều Hành Đơn Giản |
+| **Loại dự án** | Dự án học tập / Dự án môn học |
+| **Ngôn ngữ** | C/C++, Assembly |
+| **Kiến trúc** | x86 32-bit |
+| **Build System** | Makefile |
+| **Môi trường chạy** | QEMU / VirtualBox / VMware |
+| **Định dạng đầu ra** | Bootable ISO |
 
 ---
 
@@ -356,9 +356,10 @@ Ví dụ:
 
 **Minh Phương**
 
-* GitHub: [@mfuongg](https://github.com/mfuongg)
-* Repository: [MyOS](https://github.com/mfuongg/MyOS)
-* Email: fuongm06@gmail.com
+- GitHub: [@mfuongg](https://github.com/mfuongg)
+- Repository: [MyOS](https://github.com/mfuongg/MyOS)
+- Email: `fuongm06@gmail.com`
+
 ---
 
 ## 📄 Ghi chú
@@ -368,4 +369,3 @@ MyOS được xây dựng với mục đích **học tập và nghiên cứu**, 
 ---
 
 ⭐ **Nếu bạn thấy dự án hữu ích, hãy Star repository để ủng hộ dự án!**
-
