@@ -324,26 +324,12 @@ Thông qua dự án MyOS, nhóm thực hiện tìm hiểu và thực hành:
 
 ---
 
-## 📸 Demo
-
-> Có thể bổ sung ảnh chụp MyOS đang chạy trên QEMU, VirtualBox hoặc VMware tại đây.
-
-### Màn hình khởi động
-
-![MyOS - Màn hình khởi động](images/myos-boot.png)
-
-### Mini Shell
-
-![MyOS - Mini Shell](images/myos-shell.png)
-
----
 
 ## 📌 Thông tin dự án
 
 | Thông tin | Chi tiết |
 |---|---|
 | **Tên dự án** | MyOS — Hệ Điều Hành Đơn Giản |
-| **Loại dự án** | Dự án học tập / Dự án môn học |
 | **Ngôn ngữ** | C/C++, Assembly |
 | **Kiến trúc** | x86 32-bit |
 | **Build System** | Makefile |
